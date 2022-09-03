@@ -43,16 +43,12 @@ body {
     height: 100%;
     object-fit: cover;
     display: block;
-    
 }
 
 .card-content {
     display: flex;
     flex-direction: column;
-    padding: 2.2rem  0;
-    justify-content: center;
-    align-items: center;
-    
+    padding: 2.2rem;
 }
 
 .btn {
@@ -64,6 +60,7 @@ body {
     color: white;
     margin-top: 2rem;
     transition: all 0.3s ease-in-out;
+   
 }
 
 .btn:hover {
@@ -81,7 +78,7 @@ body {
 
 .content-1 {
     font-family: 'Fraunces', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-right: 1.2rem;
@@ -126,8 +123,6 @@ body {
         justify-content: center;
         align-items: center;
     }
-
-    
 }
 
 @media screen and (max-width: 730px){
